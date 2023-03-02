@@ -75,7 +75,7 @@ const RulesText = ({brandName, lang, landingName}) => {
           {getLang(translation, brandName, lang, `subParagraph9${1 + number}`)}
         </p>
       )}
-      {brandName === BRANDS.cupis ?
+      {brandName === BRANDS.secret ?
         <>
         {Array.from({length: 3}).map((_, number) =>
           <h2 key={number}>
@@ -92,7 +92,7 @@ const RulesText = ({brandName, lang, landingName}) => {
         )}
         </>
       }
-      {brandName === BRANDS.cupis ?
+      {brandName === BRANDS.secret ?
         ''
         :
         <>
@@ -103,7 +103,7 @@ const RulesText = ({brandName, lang, landingName}) => {
           )}
         </>
       }
-      {brandName === BRANDS.cupis ?
+      {brandName === BRANDS.secret ?
         ''
         :
         <>
@@ -134,57 +134,57 @@ const RulesText = ({brandName, lang, landingName}) => {
           {getLang(translation, brandName, lang, `paragraph${9 + number + 5}`)}
         </h2>
       )}
-      {brandName === BRANDS.zenit ?
+      {brandName === BRANDS.secret ?
         <div className={`table-wrapper table-wrapper_${brandName}`}>
           <table className={`table table_${brandName}`}>
             <tr>
-              <td rowSpan={brandName !== BRANDS.cupis ? "2" : "1"} className="bold-font">{getLang(translation, brandName, lang, `tableLeftTopText`)}</td>
+              <td rowSpan={brandName !== BRANDS.secret ? "2" : "1"} className="bold-font">{getLang(translation, brandName, lang, `tableLeftTopText`)}</td>
               <td className="bold-font" >{getLang(translation, brandName, lang, `tableCenterTopText`)}</td>
             </tr>
-            {brandName !== BRANDS.cupis &&
+            {brandName !== BRANDS.secret &&
             <tr>
 
             </tr>
             }
             <tr>
               <td>{'500'}</td>
-              <td>RUB</td>
+              <td></td>
             </tr>
             <tr className={`one one_${brandName}`}>
               <td>{'8'}</td>
-              <td>USD</td>
+              <td></td>
             </tr>
             <tr className={`one one_${brandName}`}>
               <td>{'8'}</td>
-              <td>EUR</td>
+              <td></td>
             </tr>
             <tr className={`one one_${brandName}`}>
               <td>{'300'}</td>
-              <td>UAH</td>
+              <td></td>
             </tr>
             <tr className={`one one_${brandName}`}>
               <td>{'3900'}</td>
-              <td>KZT</td>
+              <td></td>
             </tr>
             <tr className={`one one_${brandName}`}>
               <td>{'130'}</td>
-              <td>PRB</td>
+              <td></td>
             </tr>
             <tr className={`one one_${brandName}`}>
               <td>{'350000'}</td>
-              <td>IRR</td>
+              <td></td>
             </tr>
             <tr className={`one one_${brandName}`}>
               <td>{'40'}</td>
-              <td>BRL</td>
+              <td></td>
             </tr>
             <tr className={`one one_${brandName}`}>
               <td>{'30'}</td>
-              <td>TMT</td>
+              <td></td>
             </tr>
             <tr className={`one one_${brandName}`}>
               <td>{'160'}</td>
-              <td>MDL</td>
+              <td></td>
             </tr>
 
           </table>
