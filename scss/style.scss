@@ -2,7 +2,7 @@
 @import "animation";
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&family=Rubik:wght@400;600&display=swap');
 
-.landing_freebet_for_app {
+.landing_secret_for_app {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -59,7 +59,7 @@
     }
   }
 
-  .bg-freebet-app {
+  .bg-secret-app {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -193,7 +193,7 @@
           padding: 0.4vw 2.8vw;
           height: 65px;
         }
-        .content__btn_promo {
+        .content__btn_secret {
           // background: linear-gradient(91.92deg, #FDC41B -3.88%, #FDC41B 6.91%, #FFE392 12.6%, #FDC41B 35.33%, #FDC41B 52.38%, #FFE392 59.21%, #FDC41B 67.73%, #FFE392 98.42%);
           // box-shadow: 0px 0px 20px #FFFFFF;
           height: 76px;
@@ -204,7 +204,7 @@
           border: 3px solid #FDC41B;
           background: transparent;
         }
-        .content__btn__text_promo {
+        .content__btn__text_secret {
           display: flex;
           justify-content: center;
           align-items: center;
