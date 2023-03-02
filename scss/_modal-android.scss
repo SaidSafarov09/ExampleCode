@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&family=Rubik:wght@400;600&display=swap');
+
+.modal-space-android {
+  z-index: 1000;
+}
+.modal-area-android {
+  width: 40vw;
+  border-radius: 60px;
+  background-color: #F3F7F9;
+}
+.modal-area__body-android {
+  padding: 10px 10px;
+}
+.modal-body-android h2{
+  text-align: center;
+  color: #0A4C6F;
+}
+.content_option-android {
+  display: flex;
+  flex-direction: column;
+}
+.content_option__item_1-android,
+.content_option__item_2 {
+  .btn-download {
+    border-radius: 16px;
+    background: #FF9631;
+  }
+  min-height: 190px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  height: 20vh;
+  padding-top: 2.5%;
+  margin: 2.5% auto;
+  width: 95%;
+  justify-content: space-around;
+  display: flex;
+  background-color: #fff;
+  border-radius: 36px;
+}
+
+.modal-text-android {
+  .block__btn {
+    margin-top: 2%;
+    width: 100%;
+    height: 100%;
+  }
+  .btn-download{
+    min-height: 70%;
+    margin-top: 3%;
+    font-size: 16px;
+    height: 70%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  margin-left: 2.5%;
+  display: flex;
+  flex-direction: column;
+}
+.modal-text-android p {
+  padding-top: 2%;
+  line-height: 24px;
+  font-size: 17px;
+  color: #0A4C6F;
+}
+.modal-text-android h6 {
+  font-weight: 600;
+  margin: 0;
+  font-size: 24px;
+  color: #0A4C6F;
+}
+.content_option__item_2 .QR {
+  width: 160px;
+  height: 160px;
+  background-color: #DBE3EB;
+  border-radius: 20px;
+  margin-left: 2.5%;
+  padding: 15px 15px 15px 15px;
+}
+.android-modal__img {
+  margin-left: 2.5%;
+  width: 160px;
+  height: 160px;
+}
+.content_option__item_2-cupis {
+  display: none;
+}
+.modal-area__close {
+  position: fixed;
+  top: 22px;
+}
+@media (max-width: 1850px) {
+  .modal-area__close {
+    right: 25px;
+  }
+}
+@media (max-width: 1560px) {
+  .content_option__item_1,
+  .content_option__item_2 {
+    height: 20vh;
+  }
+  //.modal-text .btn-download {
+  //  height: 60%;
+  //}
+}
+@media (max-width: 1200px) {
+  .modal-text p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 1024px) {
+  .modal-space-android {
+    display: none;
+  }
+}
+
+

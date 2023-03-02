@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&family=Rubik:wght@400;600&display=swap');
+
+.modal-space {
+  z-index: 1000;
+}
+.modal-area {
+  width: 40vw;
+  border-radius: 60px;
+  background-color: #F3F7F9;
+}
+.modal-area__body {
+  padding: 10px 10px;
+}
+.modal-body h2{
+  text-align: center;
+  color: #0A4C6F;
+}
+.content_option {
+  display: flex;
+  flex-direction: column;
+}
+.content_option__item_1,
+.content_option__item_2 {
+  .btn-download {
+    border-radius: 16px;
+    background: #FF9631;
+  }
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  min-height: 190px;
+  height: 20vh;
+  padding-top: 2.5%;
+  margin: 2.5% auto;
+  width: 95%;
+  justify-content: space-around;
+  display: flex;
+  background-color: #fff;
+  border-radius: 36px;
+}
+
+.modal-text {
+  .block__btn {
+    margin-top: 2%;
+    width: 100%;
+    height: 100%;
+  }
+  .btn-download{
+    min-height: 60%;
+    margin-top: 10%;
+    font-size: 16px;
+    height: 45%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  margin-left: 2.5%;
+  display: flex;
+  flex-direction: column;
+}
+.modal-text p {
+  padding-top: 2%;
+  line-height: 24px;
+  font-size: 17px;
+  color: #0A4C6F;
+}
+.modal-text h6 {
+  font-weight: 600;
+  margin: 0;
+  font-size: 24px;
+  color: #0A4C6F;
+}
+.QR {
+  width: 160px;
+  height: 160px;
+  background-color: #DBE3EB;
+  border-radius: 20px;
+  margin-left: 2.5%;
+  padding: 15px 15px 15px 15px;
+}
+.ios-modal__img {
+  margin-left: 2.5%;
+  width: 160px;
+  height: 160px;
+}
+.content_option__item_2-cupis {
+  display: none;
+}
+@media (max-width: 1280px) and (max-height: 800px){
+  .content_option__item_1, .content_option__item_2 {
+    height: 25vh !important;
+  }
+
+}
+@media (max-width: 1560px) {
+  .content_option__item_1,
+  .content_option__item_2 {
+    height: 20vh;
+  }
+  //.modal-text .btn-download {
+  //  height: 60%;
+  //}
+}
+@media (max-width: 1200px) {
+  .modal-text p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 1024px) {
+  .modal-space {
+    display: none;
+  }
+}
+//@media (max-width: 1360px) and (max-height: 850px) {
+//  .modal-text .btn-download {
+//    height: 67%;
+//  }
+//  .content_option__item_1-android, .content_option__item_2 {
+//    height: 25vh;
+//  }
+//}
+

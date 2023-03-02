@@ -1,0 +1,324 @@
+@import "vars";
+
+@media(max-width: 1440px) {
+  .landing_freebet_for_app main{
+    margin-bottom: 25px;
+  }
+  .landing_freebet_for_app .content__block .content__col_left .content__btns .content__btn__text .content__btn_download {
+    font-size: calc(12px + .6vw);
+  }
+  .landing_freebet_for_app .content__block .content__col_left .content__btns .content__btn {
+    padding: 0.6vw 2.2vw;
+  }
+}
+
+@media(max-width: 1200px) {
+  .landing_freebet_for_app .modal-overlay .modal-window .modal-window__body {
+    padding: 10px 55px 10px 15px;
+  }
+}
+
+@media(max-width: 1024px) {
+  .landing_freebet_for_app .content__block .content__col_left .content__btns {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+  }
+  .landing_freebet_for_app .content__block {
+    margin-bottom: 45px;
+  }
+  .landing_freebet_for_app .note{
+    margin-bottom: 20px;
+  }
+  .content__btn_promo {
+    border-radius: 50px;
+  }
+  .landing_freebet_for_app .content__block .content__col_left .content__btns .content__btn {
+    height: 51px;
+  }
+  
+}
+
+@media(max-width: 992px) {
+  .landing_freebet_for_app header{
+    margin-bottom: 50px;
+  }
+  .landing_freebet_for_app main{
+    margin-bottom: 50px;
+  }
+  .landing_freebet_for_app .animate__animated {
+    margin-bottom: 50px;
+  }
+  .landing_freebet_for_app .content__block .content__col_right {
+    display: none;
+  }
+  .landing_freebet_for_app .positionLogoCenter {
+    justify-content: flex-start;
+  }
+  .landing_freebet_for_app .content__block .content__col_left .content__bulbs {
+    margin-bottom: 50px;
+  }
+  .landing_freebet_for_app .content__block .content__col_left .content__bulbs .content__bulb .content__step {
+    text-align: center;
+  }
+  .landing_freebet_for_app .content__block .content__col_left .content__bulbs .content__bulb .content__step .content__step__text{
+    margin-top: 15px;
+    font-size: calc(11px + .7vw);
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  .landing_freebet_for_app .content__block .content__col_left .content__bulbs .content__bulb .content__step .content__step__text .content__step__text_bold{
+    font-weight: 700;
+  }
+  .landing_freebet_for_app .content__step .content__step__img .gatsby-image-wrapper-constrained {
+    width: 27%;
+  }
+  .landing_freebet_for_app .content__step .content__step__img1 .gatsby-image-wrapper-constrained {
+    width: 14%;
+  }
+  .landing_freebet_for_app .modal-overlay .modal-window .modal-window__body {
+    padding: 10px 45px 10px 15px;
+  }
+    .landing_freebet_for_app .content__block .content__col_left .content__btns .content__btn_promo  {
+      // background: linear-gradient(91.92deg, #FDC41B -3.88%, #FDC41B 6.91%, #FFE392 12.6%, #FDC41B 35.33%, #FDC41B 52.38%, #FFE392 59.21%, #FDC41B 67.73%, #FFE392 98.42%);
+      // box-shadow: 0px 0px 20px #FFFFFF;
+      height: 65px;
+      width: 100%;
+      // border-radius: 50px;
+      max-width: 1073px;
+      min-width: 80vw;
+      width: 100%;
+      border-radius: 0px;
+      border: 3px solid #FDC41B;
+      background: transparent;
+    }
+    .content__btn__text_promo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      background: transparent;
+          p {
+        color: #000;  
+        font-weight: 600;
+        font-size: 36px;
+        font-family: 'Rubik';
+        text-align: center;
+    }
+    .content__btn_ios_promo {
+      background: transparent;
+    }
+    
+}
+}
+
+@media(max-width: 800px) {
+  .landing_freebet_for_app .footer-wrapper {
+    flex-direction: column;
+  }
+  .landing_freebet_for_app .footer-wrapper .copyright-text {
+    align-items: center;
+    margin-top: 20px;
+    order: 3;
+  }
+  .landing_freebet_for_app .footer-wrapper .social-links-wrapper {
+    order: 1;
+  }
+  .landing_freebet_for_app .footer-wrapper__support {
+    order: 2;
+    margin-top: 20px;
+  }
+  .landing_freebet_for_app .content__block .content__col_left .content__btns .content__btn__text .content__btn_download {
+    font-size: calc(10px + .6vw);
+}
+.landing_freebet_for_app .content__block .content__col_left .content__btns .content__btn__text_promo p {
+  font-size: 32px;
+}
+}
+
+@media(max-width: 768px) {
+  .landing_freebet_for_app .content__block .content__col_left .content__btns .content__btn {
+    justify-content: center;
+  }
+  .landing_freebet_for_app .content__block .content__col_left .content__btns .content__btn__icon img  {
+    width: 4.2vw;
+    height: 4.2vw;
+  }
+  .landing_freebet_for_app .content__block .content__col_left .content__btns .content__btn__text {
+    margin-left: 5px;
+  }
+  .landing_freebet_for_app .modal-overlay .modal-window .modal-window__body {
+    padding: 10px 35px 10px 15px;
+  }
+  .landing_freebet_for_app .content__block .content__col_left .content__btns .content__btn__text_promo p {
+    font-size: 30px;
+  }
+
+}
+
+@media(max-width: 600px) {
+  .dropdown {
+    margin: 10px 0px 0;
+  }
+  .site-logo.site-logo svg {
+    width: 170px;
+    height: 60px;
+  }
+  .landing_freebet_for_app .header-wrapper .site-logo {
+    height: unset;
+  }
+  .landing_freebet_for_app .content__block .content__col_left .content__btns {
+    flex-direction: column;
+    align-items: center;
+  }
+  .landing_freebet_for_app .content__block .content__col_left .content__btns .content__btn {
+    margin-right: 0;
+    margin-bottom: 25px;
+  }
+  .landing_freebet_for_app .content__step .content__step__img .gatsby-image-wrapper-constrained {
+    width: 36%;
+  }
+
+  .landing_freebet_for_app .content__step .content__step__img1 .gatsby-image-wrapper-constrained {
+    width: 16%;
+  }
+  .landing_freebet_for_app main {
+    margin-bottom: 0;
+  }
+  .landing_freebet_for_app .content__block .content__col_left .content__btns .content__btn__text_promo p {
+    font-size: 24px;
+  }
+  .landing_freebet_for_app .content__block .content__col_left .content__btns {
+    margin-top: 20px;
+  }
+  .landing_freebet_for_app .content__block .content__col_left .content__btns .content__btn_promo {
+    margin-left: 0;
+    height: 51px;
+    min-height: 35px;
+  }
+  .landing_freebet_for_app .content__block .content__col_left .content__btns .content__btn {
+    max-width: 1073px;
+    min-width: 80vw;
+  }
+  .landing_freebet_for_app .content__block .content__col_left .content__btns .content__btn:nth-child(2) {
+    margin-left: 0;
+}
+}
+
+@media(max-width: 500px) {
+  .landing_freebet_for_app .header-wrapper .header-btns {
+    flex-direction: column;
+    top: 25px;
+  }
+  .landing_freebet_for_app .content__block .content__col_left .content__btns .content__btn__text .content__btn_download {
+    font-size: calc(8px + 1.4vw);
+  }
+  .landing_freebet_for_app .content__block .content__col_left .content__btns .content__btn__icon img {
+    width: 7.4vw;
+    height: 7.4vw;
+  }
+  .landing_freebet_for_app .content__block .content__col_left .content__bulbs .content__bulb .content__step .content__step__text {
+    font-size: calc(9px + .3vw);
+  }
+  .landing_freebet_for_app .content__bulb_middle {
+    margin: 0 5px;
+  }
+  .landing_freebet_for_app .content__step .content__step__img1 .gatsby-image-wrapper-constrained {
+    width: 19%;
+  }
+  .landing_freebet_for_app .content__block .content__col_left .content__btns .content__btn__text_promo p {
+    font-size: 20px;
+  }
+}
+
+@media(max-width: 400px) {
+  .landing_freebet_for_app .header-wrapper .header-btns .header-wrapper__rules-btn {
+    padding: 0px 1.5em;
+    min-width: 120px;
+  }
+  .site-logo.site-logo svg {
+    width: 130px;
+    height: 60px;
+}
+  .landing_freebet_for_app .content__block .content__col_left .content__btns .content__btn__icon img {
+    width: 9.4vw;
+    height: 9.4vw;
+  }
+  .landing_freebet_for_app .content__block .content__col_left .content__bulbs .content__bulb {
+    min-height: 250px;
+    justify-content: flex-end;
+    flex: 1 1 33%;
+  }
+  .landing_freebet_for_app .content__block .content__col_left .content__bulbs  .content__bulb-lights {
+    position: absolute;
+    top: 0;
+    width: 200px;
+  }
+  .landing_freebet_for_app .content__block .content__col_left .content__bulbs .content__bulb:before {
+    left: 46.5%;
+  }
+  .landing_freebet_for_app .content__block {
+    margin-bottom: 0;
+  }
+  .landing_freebet_for_app .modal-overlay #modal-rules {
+    padding: 10px;
+    height: 70vh;
+  }
+  .landing_freebet_for_app .modal-overlay .modal-window .modal-window__body {
+    padding: 10px 20px 10px 15px;
+  }
+}
+
+@media(max-width: 375px) {
+  .landing_freebet_for_app .content__block .content__col_left .content__bulbs .content__bulb .content__step .content__step__text {
+    font-size: 11px;
+  }
+  .landing_freebet_for_app .content__block .content__col_left .content__btns .content__btn__text_promo p {
+    font-size: 18px;
+  }
+}
+
+@media(max-width: 320px) {
+  .landing_freebet_for_app .content__step .content__step__img1 .gatsby-image-wrapper-constrained {
+    width: 30%;
+  }
+  .landing_freebet_for_app .modal-overlay #modal-rules {
+    padding: 0;
+  }
+  .landing_freebet_for_app .modal-overlay .modal-window .modal-window__body {
+    padding: 10px 15px;
+  }
+}
+
+@media(min-width: 320px) {
+  .layout {
+    width: $gridXS;
+  }
+}
+
+@media(min-width: 640px) {
+  .layout {
+    width: $gridSM;
+  }
+}
+
+@media(min-width: 768px) {
+  .layout {
+    width: 80%;
+  }
+}
+
+@media(min-width: 1024px) {
+  .layout {
+    width: 90%;
+  }
+}
+
+@media(min-width: 1440px) {
+  .layout {
+    width: $gridXL;
+    max-width: $max-width;
+  }
+}
+
+
